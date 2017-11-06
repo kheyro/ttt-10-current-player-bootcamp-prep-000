@@ -11,11 +11,10 @@ end
 
 def current_player(board)
   player = ""
-  if board.size % 2 == 0
-    player = "O"
-  end
   if board.size % 2 == 1
     player = "X"
+  else
+    player = "O"
   end
   return player
 end
