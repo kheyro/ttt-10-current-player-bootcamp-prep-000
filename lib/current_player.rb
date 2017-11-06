@@ -11,7 +11,7 @@ end
 
 def current_player(board)
   player = ""
-  if (turn_count(board) + 1) % 2 == 1
+  if (turn_count(board) + 1).even
     player = "X"
   else
     player = "O"
