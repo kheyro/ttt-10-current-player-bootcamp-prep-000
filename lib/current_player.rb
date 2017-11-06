@@ -6,7 +6,5 @@ def turn_count(board)
     end
   end
 
-  return puts counter
+  return counter
 end
-
-turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
